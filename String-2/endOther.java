@@ -31,8 +31,8 @@
  */
 
 public boolean endOther(String a, String b) {
-    String aLower = a.toLowerCase();
-    String bLower = b.toLowerCase();
+    a = a.toLowerCase();
+    b = b.toLowerCase();
 
-    return bLower.endsWith(aLower) || aLower.endsWith(bLower);
+    return b.endsWith(a) || a.endsWith(b);
 }
