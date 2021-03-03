@@ -31,8 +31,19 @@
  */
 
 public boolean endOther(String a, String b) {
+    int aLen = a.length();
+    int bLen = b.length();
     a = a.toLowerCase();
     b = b.toLowerCase();
-
-    return b.endsWith(a) || a.endsWith(b);
+   
+    if (aLen < bLen) {
+        if (b.substring(bLen - aLen, bLen).equals(a)) {
+          return true;
+        }
+        return false;
+    } else if (a.substring(aLen - bLen, aLen).equals(b)) {
+        return true;
+    }
+  
+    return false;
 }
