@@ -40,7 +40,6 @@ public boolean endOther(String a, String b) {
         if (b.substring(bLen - aLen, bLen).equals(a)) {
           return true;
         }
-        return false;
     } else if (a.substring(aLen - bLen, aLen).equals(b)) {
         return true;
     }
