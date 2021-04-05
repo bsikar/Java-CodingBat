@@ -37,6 +37,6 @@ public String repeatSeparator(String word, String sep, int count) {
         }
         return z + word;
     }
-  
+
     return z;
 }

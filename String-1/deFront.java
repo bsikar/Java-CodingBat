@@ -39,5 +39,5 @@ public String deFront(String str) {
     if (str.charAt(1) == 'b') {
          return str.substring(1, str.length());
     }
-    return str.substring(2, str.length()); 
+    return str.substring(2, str.length());
 }

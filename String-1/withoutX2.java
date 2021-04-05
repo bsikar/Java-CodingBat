@@ -31,7 +31,7 @@
 
 public String withoutX2(String str) {
     switch (str.length()) {
-    case 0: 
+    case 0:
         return "";
     case 1:
         if (str.charAt(0) == 'x') {

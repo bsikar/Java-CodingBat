@@ -37,10 +37,10 @@ public String wordEnds(String str, String word) {
             z += str.charAt(i-1);
         }
         if (i + word.length() == str.length()) {
-            break; 
+            break;
         }
         z += str.charAt(i + word.length());
     }
-    
-    return z; 
+
+    return z;
 }

@@ -35,6 +35,6 @@ public int countHi(String str) {
             ++count;
         }
     }
-    
+
     return count;
 }

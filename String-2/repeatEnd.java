@@ -34,6 +34,6 @@ public String repeatEnd(String str, int n) {
     for (int i = 0; i < n; ++i) {
         z += str.substring(str.length() - n);
     }
-  
+
     return z;
 }

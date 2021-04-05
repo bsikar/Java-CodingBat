@@ -39,6 +39,6 @@ public String mixString(String a, String b) {
             z += b.charAt(i);
         }
     }
-  
+
     return z;
 }

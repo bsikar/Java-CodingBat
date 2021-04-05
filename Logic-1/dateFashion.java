@@ -39,6 +39,6 @@ public int dateFashion(int you, int date) {
     }
     if (you >= 8 || date >= 8) {
         return 2;
-    } 
+    }
     return 1;
 }

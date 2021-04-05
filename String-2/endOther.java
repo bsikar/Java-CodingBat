@@ -35,7 +35,7 @@ public boolean endOther(String a, String b) {
     int bLen = b.length();
     a = a.toLowerCase();
     b = b.toLowerCase();
-   
+
     if (aLen < bLen) {
         if (b.substring(bLen - aLen, bLen).equals(a)) {
           return true;
@@ -43,6 +43,6 @@ public boolean endOther(String a, String b) {
     } else if (a.substring(aLen - bLen, aLen).equals(b)) {
         return true;
     }
-  
+
     return false;
 }

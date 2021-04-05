@@ -35,6 +35,6 @@ public String atFirst(String str) {
     }
     for (int i = 0; i <= 2-str.length(); ++i) {
         str += '@';
-    } 
+    }
     return str;
 }
